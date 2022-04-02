@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "name": "api_restful_codertarea",
+  "description": "",
+  "version": "1.0.0",
+  "main": "Contenedor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GonzaloHeredia87/API_RESTful_CODERTAREA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GonzaloHeredia87/API_RESTful_CODERTAREA/issues"
+  },
+  "homepage": "https://github.com/GonzaloHeredia87/API_RESTful_CODERTAREA#readme"
+}
