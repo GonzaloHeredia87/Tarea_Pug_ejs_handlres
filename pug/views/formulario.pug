@@ -1,0 +1,21 @@
+
+extends inicio
+
+block contenedor
+    h1(style='color:blue;') Ingrese producto
+    br
+    form(action='/productos', method='POST')
+    .form-group
+        label(for='title')
+        b Title
+        input#title.form-control(type='text', name='title')
+    .form-group
+        label(for='price')
+        b Valor
+        input#price.form-control(type='number', name='price')
+    .form-group
+        label(for='thumbnail')
+        b Imagen
+        input#thumbnail.form-control(type='text', name='thumbnail')
+    button.btn.btn-success.mt-3.mb-5 Enviar
+    //a(href='/') Enlace a otra pagina
